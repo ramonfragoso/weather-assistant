@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es5", // Set the target ECMAScript version (adjust as needed)
+    "module": "commonjs", // Use the CommonJS module system
+    "outDir": "dist", // Output compiled JavaScript to the "dist" folder
+    "strict": true, // Enable strict mode for type safety
+    "allowJs": true, // Allow compiling JavaScript files alongside TypeScript
+    "esModuleInterop": true // Enable default imports for non-ESM modules
+  },
+  "include": ["src"] // Include the "src" directory for compilation
+}
